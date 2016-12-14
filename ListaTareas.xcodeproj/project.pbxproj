@@ -12,6 +12,9 @@
 		970CE4371DEE21AB00A479A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970CE4351DEE21AB00A479A7 /* Main.storyboard */; };
 		970CE4391DEE21AB00A479A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970CE4381DEE21AB00A479A7 /* Assets.xcassets */; };
 		970CE43C1DEE21AB00A479A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970CE43A1DEE21AB00A479A7 /* LaunchScreen.storyboard */; };
+		973DC3C71E0089C600FDF612 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973DC3C61E0089C600FDF612 /* MyTableViewController.swift */; };
+		973DC3C91E008CB900FDF612 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973DC3C81E008CB900FDF612 /* MyTableViewCell.swift */; };
+		97E8B3811E008E87009CF374 /* CrearTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E8B3801E008E87009CF374 /* CrearTareaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		970CE4381DEE21AB00A479A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		970CE43B1DEE21AB00A479A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		970CE43D1DEE21AB00A479A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973DC3C61E0089C600FDF612 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		973DC3C81E008CB900FDF612 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		97E8B3801E008E87009CF374 /* CrearTareaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearTareaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				970CE4381DEE21AB00A479A7 /* Assets.xcassets */,
 				970CE43A1DEE21AB00A479A7 /* LaunchScreen.storyboard */,
 				970CE43D1DEE21AB00A479A7 /* Info.plist */,
+				973DC3C61E0089C600FDF612 /* MyTableViewController.swift */,
+				973DC3C81E008CB900FDF612 /* MyTableViewCell.swift */,
+				97E8B3801E008E87009CF374 /* CrearTareaViewController.swift */,
 			);
 			path = ListaTareas;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E8B3811E008E87009CF374 /* CrearTareaViewController.swift in Sources */,
 				970CE4341DEE21AB00A479A7 /* ViewController.swift in Sources */,
+				973DC3C91E008CB900FDF612 /* MyTableViewCell.swift in Sources */,
+				973DC3C71E0089C600FDF612 /* MyTableViewController.swift in Sources */,
 				970CE4321DEE21AB00A479A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GLU2Z7NT53;
 				INFOPLIST_FILE = ListaTareas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GLU2Z7NT53;
 				INFOPLIST_FILE = ListaTareas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,6 +314,7 @@
 				970CE4421DEE21AB00A479A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
